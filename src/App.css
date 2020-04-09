@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather&display=swap');
+
+.App {
+    margin: 0 auto;
+    color: white;
+}
+
+.location {
+    text-align: center;
+}
+
+.card {
+    margin: 0 auto;
+    background: linear-gradient(to bottom, blue, lightblue);
+    width: 200px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.city {
+    font-family: 'MerriWeather', sans-serif;
+    font-size: 1.6rem;
+}
+
+.country {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.1rem;
+}
+
+.temp {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.condition {
+    font-family: 'MerriWeather', sans-serif;
+    font-size: 1.2rem;
+}
+
+.icon {
+    width: 40%;
+}
